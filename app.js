@@ -6,6 +6,6 @@ app.get("/", (req, res) => {
   res.send("hello azure");
 });
 
-app.listen(443, () => {
+app.listen(3000, () => {
   console.log("listening on port 80");
 });
